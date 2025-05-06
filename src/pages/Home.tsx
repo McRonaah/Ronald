@@ -24,7 +24,7 @@ const Home: React.FC = () => {
         </h1>
         <div className="h-1 w-20 bg-ron-orange mx-auto mb-6"></div>
         <h2 className="text-xl md:text-3xl mb-8">
-          Software Engineer | Coding Instructor | AI Enthusiast | 
+          Software Engineer | Technical Instructor | AI Enthusiast | Leader |
         </h2>
         <p className="text-lg md:text-xl max-w-2xl mx-auto mb-10">
           Building innovative solutions and nurturing Africa's tech talent.
@@ -34,7 +34,7 @@ const Home: React.FC = () => {
           <Button 
             asChild
             size="lg" 
-            className="bg-ron-blue hover:bg-ron-dark-blue text-white"
+            className="bg-white hover:bg-ron-blue text-ron-dark-blue hover:text-white"
           >
             <Link to="/portfolio">View My Work</Link>
           </Button>
@@ -42,7 +42,7 @@ const Home: React.FC = () => {
             asChild
             size="lg" 
             variant="outline" 
-            className="border-white text-white hover:bg-white/10"
+            className="border-white bg-white hover:bg-ron-blue text-ron-dark-blue hover:text-white"
           >
             <Link to="/contact">Get In Touch</Link>
           </Button>
