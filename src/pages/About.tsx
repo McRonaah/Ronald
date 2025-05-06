@@ -8,24 +8,28 @@ import { Card } from "@/components/ui/card";
 const About: React.FC = () => {
   const skills = [
     {
-      category: "Frontend",
-      technologies: ["React", "TypeScript", "JavaScript", "Next.js", "Tailwind CSS", "HTML/CSS"]
+      category: "🖥️ Frontend Development",
+      technologies: ["React", "TypeScript", "JavaScript", "Next.js", "Tailwind CSS", "HTML/CSS", "vite"]
     },
     {
-      category: "Backend",
-      technologies: ["Node.js", "Express", "Python", "Django", "RESTful APIs", "GraphQL"]
+      category: "🛠️ Backend and Databases",
+      technologies: ["Firebase", "Supabase", "MongoDB", "SQL", "RESTful APIs"]
     },
     {
-      category: "Database",
-      technologies: ["PostgreSQL", "MongoDB", "Firebase", "Supabase", "SQL"]
+      category: "✍️  Technical Writing & Documentation",
+      technologies: ["Markdown & GitHub Docs", "Software Documentation", "Blogging", "Bug Reports & QA Documentation"]
     },
     {
-      category: "DevOps & Tools",
-      technologies: ["Git", "GitHub", "Docker", "CI/CD", "AWS", "Vercel", "Netlify"]
+      category: "👨‍🏫 Mentorship & Community Leadership",
+      technologies: ["Coding Instructor", "Workshop Facilitator", "Event Coordinator", "Hackathon Contributor", "Community Builder" , "Event Innovation"]
     },
     {
-      category: "AI & ML",
-      technologies: ["TensorFlow", "PyTorch", "OpenAI", "Hugging Face", "Natural Language Processing"]
+      category: "💻 Tools & Workflow",
+      technologies: ["Git & GitHub", "Linux & Git Bash", "Visual Studio Code", "Google Workspace"]
+    },
+    {
+      category: "🗣️ Soft Skills",
+      technologies: ["LeaderShip", "Time Management", "Communication", "Team Collaboration", "Pair Programming", "Problem Solving", "Adaptability", "Creativity", "Mentorship"]
     }
   ];
 
@@ -42,16 +46,22 @@ const About: React.FC = () => {
             <h3 className="text-2xl font-bold mb-4">My Story</h3>
             <div className="space-y-4 text-lg">
               <p>
-                I'm Ronald Kipchirchir, a passionate Software Engineer, Coding Instructor, AI Enthusiast, and Technical Writer from Kenya. My journey in tech began with a curiosity about how digital solutions could address challenges in my community.
+              I'm Ronald Kipchirchir, a passionate Software Engineer from Kenya, dedicated to using technology as a tool for empowerment, learning, and connection.
               </p>
               <p>
-                Over the years, I've grown into a versatile developer with expertise in modern web technologies. I'm deeply committed to education and mentorship, having taught numerous students who have gone on to successful careers in tech.
+              My journey began with curiosity—breaking things, fixing them, and eventually writing my first lines of code. What started as tinkering turned into purpose: building solutions, educating others, and contributing to open-source projects.
               </p>
               <p>
-                My work spans from building scalable web applications to contributing to open-source projects. I'm particularly interested in the intersection of artificial intelligence and education, exploring how AI can enhance learning experiences.
+              Over time, I’ve worn many hats— Developer, technical writer, coding instructor, Nairobi DevOps community events coordinator, and Moringa School ambassador. I’ve mentored young minds, documented software for global teams, organized developer events, and taught children how to code in local schools.
               </p>
               <p>
                 When I'm not coding or teaching, I'm actively engaged in the tech community, organizing events and workshops to foster collaboration and innovation among developers in East Africa.
+              </p>
+              <p>
+              But beyond code, I believe in service. I visit children's homes, support the needy, and volunteer in ways that reflect my belief in tech for good. Each line of code, event, or article is rooted in one purpose: <strong> to build, teach, and uplift.</strong>
+              </p>
+              <p>
+              This site is a reflection of my journey—projects I’ve built, people I’ve helped, and the mission I’m still pursuing.
               </p>
             </div>
 
@@ -78,11 +88,12 @@ const About: React.FC = () => {
             </div>
 
             <div className="mt-8">
+              <a href="/Ronald_Kipchirchir_CV.pdf" download={true}>
               <Button className="flex items-center gap-2 bg-ron-blue hover:bg-ron-dark-blue">
                 <FileText className="w-4 h-4" />
                 <span>Download Resume</span>
                 <Download className="w-4 h-4 ml-1" />
-              </Button>
+              </Button></a>
             </div>
           </div>
 
