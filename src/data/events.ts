@@ -7,7 +7,7 @@ export interface Event {
   description: string;
   image: string;
   url?: string;
-  type: 'workshop' | 'conference' | 'hackathon' | 'meetup' | 'socialimpact';
+  type: 'workshop' | 'conference' | 'hackathon' | 'meetup' | 'impact' | 'judge';
 }
 
 export const events: Event[] = [
@@ -69,6 +69,16 @@ export const events: Event[] = [
     description: "As part of my mission to empower lives beyond code, I organized and participated in a visit to Joy Children’s Home, where we spent a day engaging with children through games, storytelling, mentorship, and motivational talks. I led a short “Intro to Tech” session tailored for teens, introducing them to how technology can be a tool for learning and opportunity. We also donated essential supplies including food, clothing, books, and stationery — a gesture aimed at sparking hope and showing compassion. This initiative reminded me why I code: to build a better future not just digitally, but humanely.",
     image: "https://images.unsplash.com/photo-1515187029135-18ee286d815b?q=80&w=1000",
     url: "https://example.com/nairobi-tech-meetup",
-    type: "socialimpact"
+    type: "impact"
+  },
+  {
+    id: 7,
+    title: "Tech for Good Summit",
+    date: "December 12-14, 2024",
+    location: "Nairobi, Kenya",
+    description: "Participating as a judge in a summit focused on leveraging technology for social impact and community development.",
+    image: "https://images.unsplash.com/photo-1515187029135-18ee286d815b?q=80&w=1000",
+    url: "https://example.com/tech-for-good-summit",
+    type: "judge"
   },
 ];

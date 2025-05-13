@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 const Events: React.FC = () => {
   const [selectedType, setSelectedType] = useState<string | null>(null);
 
-  const eventTypes = ['workshop', 'conference', 'hackathon', 'meetup', 'social impact'];
+  const eventTypes = ['workshop', 'conference', 'hackathon', 'meetup', 'impact', 'judge'];
   
   // Filter events based on selected type
   const filteredEvents = selectedType
@@ -20,7 +20,7 @@ const Events: React.FC = () => {
       <div className="container mx-auto">
         <SectionTitle
           title="Speaking & Events"
-          subtitle="Workshops, conferences, and community events I've participated in"
+          subtitle="Workshops, Conferences, Community events, and Charitable Activities I've participated"
         />
 
         {/* Filter Buttons */}

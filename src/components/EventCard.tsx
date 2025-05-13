@@ -16,7 +16,8 @@ const EventCard: React.FC<EventCardProps> = ({ event }) => {
     conference: "bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-300",
     hackathon: "bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-300",
     meetup: "bg-amber-100 text-amber-800 dark:bg-amber-900 dark:text-amber-300",
-    SocialImpact: "bg-amber-100 text-amber-800 dark:bg-amber-900 dark:text-amber-300"
+    impact: "bg-amber-100 text-amber-800 dark:bg-amber-900 dark:text-amber-300",
+    judge: "bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-300",
   };
 
   return (
