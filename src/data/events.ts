@@ -66,7 +66,7 @@ export const events: Event[] = [
     title: "Jacaranda children’s Home",
     date: "Monthly",
     location: "Muranga, Kenya",
-    description: "As part of my mission to empower lives beyond code, I organized and participated in a visit to Joy Children’s Home, where we spent a day engaging with children through games, storytelling, mentorship, and motivational talks. I led a short “Intro to Tech” session tailored for teens, introducing them to how technology can be a tool for learning and opportunity. We also donated essential supplies including food, clothing, books, and stationery — a gesture aimed at sparking hope and showing compassion. This initiative reminded me why I code: to build a better future not just digitally, but humanely.",
+    description: "As part of my mission to empower lives beyond code, I organized and participated in a visit to Jacaranda Children’s Home, where we spent a day engaging with children through games, storytelling, cooking, mentorship, and motivational talks. We   donated essential supplies including food, clothing, books, and stationery — a gesture aimed at sparking hope and showing compassion. This initiative reminded me why I code: to build a better future not just digitally, but humanely.",
     image: "https://images.unsplash.com/photo-1515187029135-18ee286d815b?q=80&w=1000",
     url: "https://example.com/nairobi-tech-meetup",
     type: "impact"
